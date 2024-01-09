@@ -77,7 +77,9 @@
 <body>
 	
 	 <header>
-        <a href="logout">Logout</a>
+        <form action="logout" method="Post">
+            <button type="submit">Logout</button>
+        </form>
     </header>
 
     <section>
@@ -95,9 +97,10 @@
         </div>
         
         <p><a href="change-profile.jsp">Change Profile</a></p>
-        <form action="logout" method="Post">
-            <button type="submit">Logout</button>
-        </form>
+        
+        
+            <a href="category.jsp"><button>Category Manager</button></a>
+        
     </section>
 </body>
 </html>
